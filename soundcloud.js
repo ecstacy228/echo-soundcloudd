@@ -1,3 +1,4 @@
+// SoundCloud integration for Echo Nightly
 if (window.location.hostname.includes('soundcloud.com')) {
   const setupEchoIntegration = () => {
     const audioElements = document.querySelectorAll('audio');
