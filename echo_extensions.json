@@ -10,3 +10,13 @@
     }
   ]
 }
+[
+  {
+    "name": "SoundCloud",
+    "description": "Stream music from SoundCloud in Echo Nightly",
+    "icon": "https://soundcloud.com/favicon.ico",
+    "url": "https://soundcloud.com",
+    "script": "https://raw.githubusercontent.com/ecstacy228/echo-soundcloudd/main/soundcloud.js",
+    "match": ["*://soundcloud.com/*", "*://*.soundcloud.com/*"]
+  }
+]
